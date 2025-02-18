@@ -9,12 +9,14 @@
 
 [node name="Nature2Img" type="Sprite2D" parent="."]
 texture = ExtResource("1_alkpa")
+region_enabled = true
+region_rect = Rect2(8, 8, 5248, 3480)
 
 [node name="pickable_obj_1" parent="." instance=ExtResource("2_bccxn")]
-position = Vector2(-2808, 296)
+position = Vector2(-2256, 320)
 
 [node name="pickable_obj_2" parent="." instance=ExtResource("3_5iu1q")]
-position = Vector2(-1176, 616)
+position = Vector2(-632, 616)
 
 [node name="pickable_obj_3" parent="." instance=ExtResource("4_1a3eo")]
-position = Vector2(2640, 760)
+position = Vector2(-184, -592)

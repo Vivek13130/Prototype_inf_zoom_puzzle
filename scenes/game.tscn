@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dr3yrpgudmah6"]
+[gd_scene load_steps=3 format=3 uid="uid://dr3yrpgudmah6"]
 
 [ext_resource type="PackedScene" uid="uid://rl8e2j0c5ddg" path="res://scenes/level_2.tscn" id="1_7jq4n"]
+[ext_resource type="Script" path="res://scripts/camera_2d.gd" id="2_4j1ub"]
 
 [node name="game" type="Node2D"]
 
@@ -10,3 +11,4 @@ scale = Vector2(0.353126, 0.353126)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(578, 322)
+script = ExtResource("2_4j1ub")

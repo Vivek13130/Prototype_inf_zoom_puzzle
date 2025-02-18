@@ -12,9 +12,9 @@ position = Vector2(576, 324)
 scale = Vector2(0.429, 0.309)
 
 [node name="scene_2" parent="scene_1" instance=ExtResource("2_hormk")]
-position = Vector2(-69.9302, 3.23621)
-scale = Vector2(0.0448682, 0.0451043)
+position = Vector2(-1335.66, -103.56)
+scale = Vector2(0.211197, 0.211197)
 
 [node name="scene_3" parent="scene_1/scene_2" instance=ExtResource("3_s6o4n")]
-position = Vector2(1714.42, 143.501)
-scale = Vector2(0.122383, 0.212122)
+position = Vector2(1081.64, 873.431)
+scale = Vector2(0.194522, 0.194522)
