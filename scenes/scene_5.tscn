@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://glfabucq7chl"]
+
+[ext_resource type="Texture2D" uid="uid://bgw86f4smx181" path="res://assets/nature5img.jpg" id="1_jwybv"]
+[ext_resource type="PackedScene" uid="uid://bp2fowcnrajok" path="res://scenes/pickable_obj_1.tscn" id="2_2tqp5"]
+[ext_resource type="PackedScene" uid="uid://6tb7vdvowp1j" path="res://scenes/pickable_obj_2.tscn" id="3_rgfjf"]
+[ext_resource type="PackedScene" uid="uid://b3nsjemtaxg0p" path="res://scenes/pickable_obj_3.tscn" id="4_8hqok"]
+
+[node name="scene_5" type="Node2D"]
+
+[node name="Nature6Img" type="Sprite2D" parent="."]
+texture = ExtResource("1_jwybv")
+
+[node name="pickable_obj_1" parent="." instance=ExtResource("2_2tqp5")]
+position = Vector2(750, -684)
+
+[node name="pickable_obj_2" parent="." instance=ExtResource("3_rgfjf")]
+position = Vector2(-900, 606)
+
+[node name="pickable_obj_3" parent="." instance=ExtResource("4_8hqok")]
+position = Vector2(786, 534)
