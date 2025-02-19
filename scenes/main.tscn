@@ -10,4 +10,3 @@
 [node name="inGameUI" parent="CanvasLayer" instance=ExtResource("2_q5wij")]
 
 [node name="game" parent="." instance=ExtResource("1_crrvt")]
-z_index = 4096

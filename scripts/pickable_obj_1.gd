@@ -18,6 +18,8 @@ func _process(delta: float) -> void:
 
 
 func _on_collecting_by_mouse_click(viewport: Node, event: InputEvent, shape_idx: int) -> void:
+	print("checking for event ")
 	if(event is InputEventMouseButton and event.is_pressed()):
 		GameManager.item_collected(item_type)
+		queue_free()
 		

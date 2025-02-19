@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://scripts/pickable_obj_2.gd" id="1_d03ka"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_he07d"]
-radius = 79.0
+radius = 89.0225
 
 [node name="pickable_obj_2" type="Node2D"]
 script = ExtResource("1_d03ka")
@@ -16,3 +16,5 @@ shape = SubResource("CircleShape2D_he07d")
 
 [node name="RedBodyCircle" type="Sprite2D" parent="."]
 texture = ExtResource("1_5gunc")
+
+[connection signal="input_event" from="Area2D" to="." method="_on_collecting_by_mouse_click"]
