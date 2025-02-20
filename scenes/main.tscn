@@ -5,8 +5,8 @@
 
 [node name="main" type="Node2D"]
 
+[node name="game" parent="." instance=ExtResource("1_crrvt")]
+
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="inGameUI" parent="CanvasLayer" instance=ExtResource("2_q5wij")]
-
-[node name="game" parent="." instance=ExtResource("1_crrvt")]
