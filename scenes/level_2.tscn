@@ -5,14 +5,16 @@
 [ext_resource type="PackedScene" uid="uid://glfabucq7chl" path="res://scenes/scene_5.tscn" id="3_rbvu6"]
 
 [node name="level_2" type="Node2D"]
+position = Vector2(576, 324)
+scale = Vector2(0.385087, 0.385087)
 
 [node name="scene_3" parent="." instance=ExtResource("1_7vmpd")]
 texture_filter = 2
 
-[node name="scene_4" parent="scene_3" instance=ExtResource("2_140nl")]
+[node name="scene_4" parent="." instance=ExtResource("2_140nl")]
 position = Vector2(-80, 372)
 scale = Vector2(0.15042, 0.15042)
 
-[node name="scene_5" parent="scene_3/scene_4" instance=ExtResource("3_rbvu6")]
-position = Vector2(-319.106, -172.849)
-scale = Vector2(0.107128, 0.107128)
+[node name="scene_5" parent="." instance=ExtResource("3_rbvu6")]
+position = Vector2(-128, 346)
+scale = Vector2(0.0161142, 0.0161142)

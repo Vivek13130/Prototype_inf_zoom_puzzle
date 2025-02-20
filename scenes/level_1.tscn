@@ -5,16 +5,18 @@
 [ext_resource type="PackedScene" uid="uid://b2idgymp8c7m3" path="res://scenes/scene_3.tscn" id="3_s6o4n"]
 
 [node name="level1" type="Node2D"]
+position = Vector2(272, 144)
+scale = Vector2(0.520211, 0.520211)
 
 [node name="scene_1" parent="." instance=ExtResource("1_j5tfy")]
 texture_filter = 2
 position = Vector2(576, 324)
 scale = Vector2(0.429, 0.309)
 
-[node name="scene_2" parent="scene_1" instance=ExtResource("2_hormk")]
-position = Vector2(-1335.66, -103.56)
-scale = Vector2(0.211197, 0.211197)
+[node name="scene_2" parent="." instance=ExtResource("2_hormk")]
+position = Vector2(3.00183, 292)
+scale = Vector2(0.0906035, 0.0652599)
 
-[node name="scene_3" parent="scene_1/scene_2" instance=ExtResource("3_s6o4n")]
-position = Vector2(1081.64, 873.431)
-scale = Vector2(0.194522, 0.194522)
+[node name="scene_3" parent="." instance=ExtResource("3_s6o4n")]
+position = Vector2(101.002, 349)
+scale = Vector2(0.0176244, 0.0126945)

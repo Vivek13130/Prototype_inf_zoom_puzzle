@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://cs8cck4cv1g8l"]
+
+[ext_resource type="PackedScene" uid="uid://b6nmat4nf7y8x" path="res://scenes/scene_9.tscn" id="1_usih5"]
+[ext_resource type="PackedScene" uid="uid://32p8p2jcwwvh" path="res://scenes/scene_6.tscn" id="2_k7epv"]
+[ext_resource type="PackedScene" uid="uid://prj2amtelr3g" path="res://scenes/scene_7.tscn" id="3_rtvc2"]
+[ext_resource type="PackedScene" uid="uid://c52wxx2f1ujcc" path="res://scenes/scene_8.tscn" id="4_wl5ti"]
+
+[node name="level_3_complex" type="Node2D"]
+position = Vector2(748, 344)
+scale = Vector2(0.268092, 0.268092)
+
+[node name="scene_6" parent="." instance=ExtResource("2_k7epv")]
+position = Vector2(-552, -84)
+
+[node name="scene_7" parent="." instance=ExtResource("3_rtvc2")]
+position = Vector2(-903, -141)
+rotation = 0.640378
+scale = Vector2(0.204442, 0.204442)
+
+[node name="scene_8" parent="." instance=ExtResource("4_wl5ti")]
+position = Vector2(-108, -105)
+scale = Vector2(0.2, 0.2)
+
+[node name="scene_9" parent="." instance=ExtResource("1_usih5")]
+position = Vector2(-93.2519, 67.1413)
+scale = Vector2(0.1, 0.1)

@@ -1,0 +1,70 @@
+[gd_scene load_steps=5 format=3 uid="uid://c52wxx2f1ujcc"]
+
+[ext_resource type="Texture2D" uid="uid://bqvbrxjltbhh3" path="res://assets/nature4svg.svg" id="1_gxxbo"]
+[ext_resource type="PackedScene" uid="uid://bp2fowcnrajok" path="res://scenes/pickable_obj_1.tscn" id="2_t46mh"]
+[ext_resource type="PackedScene" uid="uid://6tb7vdvowp1j" path="res://scenes/pickable_obj_2.tscn" id="3_brgyl"]
+[ext_resource type="PackedScene" uid="uid://b3nsjemtaxg0p" path="res://scenes/pickable_obj_3.tscn" id="4_oqcra"]
+
+[node name="scene_8" type="Node2D"]
+
+[node name="Nature4Svg" type="Sprite2D" parent="."]
+texture_filter = 2
+texture = ExtResource("1_gxxbo")
+
+[node name="pickable_obj_1" parent="." instance=ExtResource("2_t46mh")]
+position = Vector2(-921, -612)
+
+[node name="pickable_obj_6" parent="." instance=ExtResource("2_t46mh")]
+position = Vector2(-942, -369)
+
+[node name="pickable_obj_7" parent="." instance=ExtResource("2_t46mh")]
+position = Vector2(-855, -108)
+
+[node name="pickable_obj_8" parent="." instance=ExtResource("2_t46mh")]
+position = Vector2(567, -1155)
+rotation = -1.55731
+
+[node name="pickable_obj_9" parent="." instance=ExtResource("2_t46mh")]
+position = Vector2(717, -972)
+rotation = -1.55731
+
+[node name="pickable_obj_10" parent="." instance=ExtResource("2_t46mh")]
+position = Vector2(789, -717)
+rotation = -1.55731
+
+[node name="pickable_obj_2" parent="." instance=ExtResource("3_brgyl")]
+position = Vector2(-489, 267)
+
+[node name="pickable_obj_11" parent="." instance=ExtResource("3_brgyl")]
+position = Vector2(646, -43)
+
+[node name="pickable_obj_12" parent="." instance=ExtResource("3_brgyl")]
+position = Vector2(441, -848)
+
+[node name="pickable_obj_13" parent="." instance=ExtResource("3_brgyl")]
+position = Vector2(-674, -438)
+
+[node name="pickable_obj_3" parent="." instance=ExtResource("4_oqcra")]
+position = Vector2(171, 1077)
+
+[node name="pickable_obj_4" parent="." instance=ExtResource("4_oqcra")]
+position = Vector2(-213, 1092)
+
+[node name="pickable_obj_14" parent="." instance=ExtResource("4_oqcra")]
+position = Vector2(-535, 938)
+
+[node name="pickable_obj_15" parent="." instance=ExtResource("4_oqcra")]
+position = Vector2(-339, 726)
+
+[node name="pickable_obj_16" parent="." instance=ExtResource("4_oqcra")]
+position = Vector2(0, 668)
+
+[node name="pickable_obj_17" parent="." instance=ExtResource("4_oqcra")]
+position = Vector2(370, 656)
+
+[node name="pickable_obj_19" parent="." instance=ExtResource("4_oqcra")]
+position = Vector2(698, 672)
+rotation = -0.0677457
+
+[node name="pickable_obj_5" parent="." instance=ExtResource("4_oqcra")]
+position = Vector2(564, 897)

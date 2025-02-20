@@ -1,0 +1,50 @@
+[gd_scene load_steps=5 format=3 uid="uid://b6nmat4nf7y8x"]
+
+[ext_resource type="Texture2D" uid="uid://cbfamhfmdchn2" path="res://assets/nature3svg.svg" id="1_6pokd"]
+[ext_resource type="Texture2D" uid="uid://cy1orw4nbyym6" path="res://assets/nature5svg.svg" id="2_btbx3"]
+[ext_resource type="PackedScene" uid="uid://bp2fowcnrajok" path="res://scenes/pickable_obj_1.tscn" id="3_i34f1"]
+[ext_resource type="PackedScene" uid="uid://b3nsjemtaxg0p" path="res://scenes/pickable_obj_3.tscn" id="4_17yfo"]
+
+[node name="scene_9" type="Node2D"]
+
+[node name="Nature3Svg" type="Sprite2D" parent="."]
+texture_filter = 2
+position = Vector2(-152, 28)
+texture = ExtResource("1_6pokd")
+
+[node name="Nature5Svg" type="Sprite2D" parent="."]
+texture_filter = 2
+position = Vector2(147, 17)
+texture = ExtResource("2_btbx3")
+
+[node name="pickable_obj_1" parent="." instance=ExtResource("3_i34f1")]
+position = Vector2(248, 72)
+scale = Vector2(0.25, 0.25)
+
+[node name="pickable_obj_2" parent="." instance=ExtResource("3_i34f1")]
+position = Vector2(138, -47)
+scale = Vector2(0.25, 0.25)
+
+[node name="pickable_obj_8" parent="." instance=ExtResource("3_i34f1")]
+position = Vector2(160, 46)
+scale = Vector2(0.25, 0.25)
+
+[node name="pickable_obj_7" parent="." instance=ExtResource("3_i34f1")]
+position = Vector2(74, 9)
+scale = Vector2(0.25, 0.25)
+
+[node name="pickable_obj_3" parent="." instance=ExtResource("4_17yfo")]
+position = Vector2(-95, 99)
+scale = Vector2(0.25, 0.25)
+
+[node name="pickable_obj_4" parent="." instance=ExtResource("4_17yfo")]
+position = Vector2(-218, 95)
+scale = Vector2(0.25, 0.25)
+
+[node name="pickable_obj_5" parent="." instance=ExtResource("4_17yfo")]
+position = Vector2(-241, -9)
+scale = Vector2(0.25, 0.25)
+
+[node name="pickable_obj_6" parent="." instance=ExtResource("4_17yfo")]
+position = Vector2(-78, -9)
+scale = Vector2(0.25, 0.25)

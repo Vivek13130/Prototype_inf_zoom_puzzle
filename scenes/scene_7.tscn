@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://prj2amtelr3g"]
+
+[ext_resource type="Texture2D" uid="uid://jf8e57030iv1" path="res://assets/nature2svg.svg" id="1_7rqf4"]
+[ext_resource type="PackedScene" uid="uid://6tb7vdvowp1j" path="res://scenes/pickable_obj_2.tscn" id="2_r2jy8"]
+
+[node name="scene_7" type="Node2D"]
+
+[node name="Nature2Svg" type="Sprite2D" parent="."]
+texture_filter = 2
+texture = ExtResource("1_7rqf4")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2(-1139, -983)
+color = Color(1, 0, 1, 1)
+texture = ExtResource("1_7rqf4")
+polygon = PackedVector2Array(2264, 42, 2246, 1714, 1143, 1223, -133, 1714, -163, 246, 1108, 959)
+
+[node name="pickable_obj_2" parent="." instance=ExtResource("2_r2jy8")]
+position = Vector2(-394, -370)
+
+[node name="pickable_obj_4" parent="." instance=ExtResource("2_r2jy8")]
+position = Vector2(-594, -78)
+
+[node name="pickable_obj_5" parent="." instance=ExtResource("2_r2jy8")]
+position = Vector2(602, -62)
+
+[node name="pickable_obj_3" parent="." instance=ExtResource("2_r2jy8")]
+position = Vector2(386, -366)
